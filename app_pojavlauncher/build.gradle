@@ -72,11 +72,11 @@ android {
 
     buildTypes {
         debug {
-            applicationIdSuffix '.debug.a'
+            applicationIdSuffix '.debug.z'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.customDebug
-            resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.scoped.gamefolder.debug'
+            resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.scoped.gamefolder.debug.z'
         }
 		
         release {
